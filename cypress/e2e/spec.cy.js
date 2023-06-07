@@ -26,6 +26,16 @@ describe("DemoQA spec", () => {
       PracticeFormPage.stateAndCityArea.contains("Select City").click({force:true});
       PracticeFormPage.delhiButton.click({force: true});
       PracticeFormPage.submitButton.click({force: true});
+      PracticeFormPage.formTable.contains("td", "Kristers Skrebs")
+      PracticeFormPage.formTable.contains("td", "kristerssskrebs3@gmail.com")
+      PracticeFormPage.formTable.contains("td", "Male")
+      PracticeFormPage.formTable.contains("td", "1234567890")
+      PracticeFormPage.formTable.contains("td", "28 January,1930")
+      PracticeFormPage.formTable.contains("td", "Economics")
+      PracticeFormPage.formTable.contains("td", "Music")
+      PracticeFormPage.formTable.contains("td", "image.JPG")
+      PracticeFormPage.formTable.contains("td", "This street 19a")
+      PracticeFormPage.formTable.contains("td", "NCR Delhi")
     });
 
   });

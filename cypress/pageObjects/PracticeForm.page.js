@@ -77,6 +77,10 @@ class PracticeFormPage extends BasePage{
     static get submitButton(){
         return cy.get("#submit")
     }
+
+    static get formTable(){
+        return cy.get(".table")
+    }
 }
 
 export default PracticeFormPage;
